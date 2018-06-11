@@ -1,0 +1,190 @@
+ body{
+ 	background-image: url('img/back.jpg');
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: 100% 100%;
+ 	overflow-x: hidden;
+ }
+.navbar{
+	opacity:.78;
+	background-color: #edbe30; 
+	transition: .6s;
+}
+.dropdown-item{
+	color: #2e89ee;	
+}
+.carousel-item>.img-fluid{
+    width: 100%;
+    height: 45em;
+}
+
+.carousel-control-prev>.fa-arrow-circle-left{
+	color:black;
+	opacity: 0;
+	transition: .6s;
+	transform: translateX(-10px);
+}
+.carousel-control-next>.fa-arrow-circle-right{
+	color:black;
+	opacity: 0;
+	transition: .6s;
+	transform: translateX(+10px);
+}
+.carousel-row:hover .carousel-control-prev>.fa-arrow-circle-left{
+	opacity: 1;
+	transform: translateX(+45px);
+}
+.carousel-row:hover .carousel-control-next>.fa-arrow-circle-right{
+	opacity: 1;
+	transform: translateX(-45px);
+}
+.carousel-caption .btn{
+	background-color: blue;
+	transition: .4s;
+}
+.carousel-caption .btn:hover{
+	background-color: #eee;
+}
+.rowman{
+	background-image:url(img/video.jpg);
+	width: 100vw;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: yellow;
+}
+.row3 ,.nav-tabs,.row4{
+	background-color: #eee;
+}
+
+.card{
+	overflow: hidden;
+}
+.card-body .card-title{
+	transition: .8s;
+}
+.card:hover .card-title{
+	transform: translateY(-100px);
+}
+.card-body .card-text{
+	transition: .8s;
+}
+
+.card:hover .card-text{
+    transform: translateY(-100px);
+}
+
+.card a{
+	transform: translateY(-40px);
+	display: block;
+	z-index:1;
+	transition:.8s;
+}
+.card:hover a{
+	transform: translateY(10px);
+}
+.card img{
+	transition: .6s;
+}
+.card:hover img{
+	transform: translateY(-105px);
+}
+.tab-pane{
+  background-color: #eee;
+}
+.rowb{
+	background-color: #37adc0;
+	opacity: .7;
+}
+.rowb>h6{
+	opacity: 1;
+}
+.list-group a{
+	transition: .7s;
+}
+.list-group .best{
+	background-color:#0ba6bd; 
+}
+.list-group a:hover{
+    background-color: #0ba6bd;
+}
+.rowv{
+	color:white;
+}
+.rowv a{
+	color: white;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 25px;
+	transition: .3s;
+}
+.rowv a:hover{
+	background-color:#0ba6bd; 
+}
+form textarea{
+	width: 100%;
+	max-width: 100%;
+	height: 100px;
+	max-height: 200px;
+}
+.rowa{
+	color: white;
+}
+footer{
+	background-color: black;
+	color: white;
+}
+
+@keyframes anim{
+	0%{color: rgb(241, 20, 20);}
+	25%{color: rgb(45, 226, 21);}
+	50%{color: rgb(28, 203, 226);}
+	75%{color: white;}
+    100%{color: rgb(213, 39, 248);}
+
+}
+.fa-laptop,.fa-external-link,.fa-address-card-o,.fa-bank{
+	animation-name:anim;
+	animation-duration: 1s;
+    animation-timing-function:1s ;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+    animation-play-state: running;
+	position: relative;
+	animation-fill-mode: both;
+
+}
+
+.fa-check-circle-o,.fa-paper-plane,.fa-apple,.fa-briefcase{
+	animation-name:anim;
+	animation-duration: 1s;
+    animation-timing-function:1s ;
+    animation-delay: .1s;
+    animation-iteration-count: infinite;
+    animation-direction:forwards ;
+    animation-play-state: running;
+	position: relative;
+	animation-fill-mode: both;
+
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block;
+
+}
+.dropdown-menu{
+	background-color: #edbe30;
+	opacity: .78;
+	margin-top: .05em;
+}
+.paien{
+	background-color: #35050dea;
+	height: 60px;
+	opacity: .95;
+}
+
+.paien1{
+	background-color: #35050dea;
+	opacity: 1;	
+	color: blue;
+}
